@@ -5,6 +5,7 @@ MAINTAINER Alexander Baturin <alex.baturin1987@gmail.com>
 # ENVs
 ENV VERSION=v6.11.2 
 ENV NPM_VERSION=3
+ENV CONFIG_FLAGS="--fully-static"
 ENV PKGS="curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ tar xz"
 
 WORKDIR /tmp
